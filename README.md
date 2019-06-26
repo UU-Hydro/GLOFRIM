@@ -18,6 +18,10 @@ Maintanence and development of the code are independent of the original PCR-GLOB
 For instance, the here provided code was only tested at 30 arcmin spatial resolution
 Current efforts are untertaken to merge the different developments.
 
+To use the package, it is required to have pcraster 4.1 installed. The code and installation instructions can be found here: http://pcraster.geo.uu.nl/pcraster-4-1-0/.
+
+For installation, it is possible to do this with `pip install -e path/to/PCR_BMI`.
+
 ## Usage
 If you want to use the code, you are free to download and apply it within the GNU GPL 3.0 license.
 
