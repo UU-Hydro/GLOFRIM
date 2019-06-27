@@ -6,6 +6,8 @@ The repository containing GLOFRIM code can be found here:https://github.com/open
 
 An online documentation is available here: https://glofrim.readthedocs.io/en/latest/.
 
+The default PCR-GLOBWB model *without* BMI functionality can be found here as Zenodo release (https://doi.org/10.5281/zenodo.595656).
+
 ## Basic Model Interface (BMI)
 The Basic Model Interface (BMI) is a library specification to simplify the coupling of models.
 The BMI is a non-invasive interface that allows for accessing model code via a defined set of function to simplify conversion of an existing model to a reusable, plug-and-play model component.
@@ -20,7 +22,7 @@ Current efforts are untertaken to merge the different developments.
 
 To use the package, it is required to have pcraster 4.1 installed. The code and installation instructions can be found here: http://pcraster.geo.uu.nl/pcraster-4-1-0/.
 
-For installation, it is possible to do this with `pip install -e path/to/PCR_BMI`.
+For installation, it is possible to do this with `pip install git+https://github.com/UU-Hydro/PCR_BMI.git`.
 
 ## Usage
 If you want to use the code, you are free to download and apply it within the GNU GPL 3.0 license.
