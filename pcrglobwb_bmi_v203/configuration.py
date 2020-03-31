@@ -99,7 +99,7 @@ class Configuration(object):
 
     def parse_configuration_file(self, modelFileName):
 
-        config = ConfigParser.ConfigParser()
+        config = configparser.ConfigParser()
         config.optionxform = str
         config.read(modelFileName)
 
