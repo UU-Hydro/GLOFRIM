@@ -1,7 +1,7 @@
 #!/usr/bin/ python
 # -*- coding: utf-8 -*-
 
-import pcrglobwb_bmi_v203.waterBodies
+import pcrglobwb_bmi_v203.waterBodies as waterBodies
 from pcrglobwb_bmi_v203.ncConverter import *
 import pcrglobwb_bmi_v203.virtualOS as vos
 import os
@@ -328,7 +328,8 @@ class Routing(object):
                 iniItems.routingOptions['avgLakeReservoirInflowShortIni'], self.cloneMap, self.tmpDir, self.inputDir)
             self.avgOutflow = vos.readPCRmapClone(
                 iniItems.routingOptions['avgLakeReservoirOutflowLongIni'], self.cloneMap, self.tmpDir, self.inputDir)
-            if not isinstance(iniItems.routingOptions['waterBodyStorageIni'], types.NoneType):
+            # if not isinstance(iniItems.routingOptions['waterBodyStorageIni'], types.NoneType): #types.NoneType not supported in Py3x
+            if iniItems.routingOptions['waterBodyStorageIni'] is not 'None':
                 self.waterBodyStorage = vos.readPCRmapClone(
                     iniItems.routingOptions['waterBodyStorageIni'], self.cloneMap, self.tmpDir, self.inputDir)
                 self.waterBodyStorage = pcr.ifthen(
@@ -350,7 +351,8 @@ class Routing(object):
         wMean = self.tau * pow(avgDischarge, self.phi)
 
         # option to use constant channel width (m)
-        if not isinstance(self.constantChannelWidth, types.NoneType):
+        # if not isinstance(self.constantChannelWidth, types.NoneType): #types.NoneType not supported in Py3x
+        if self.constantChannelWidth is not None:
             wMean = pcr.cover(self.constantChannelWidth, wMean)
 
         # minimum channel width (m)

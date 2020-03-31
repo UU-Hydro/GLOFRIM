@@ -314,7 +314,8 @@ class WaterBodies(object):
         avgInflow = initial_condition['avgLakeReservoirInflowShort']
         avgOutflow = initial_condition['avgLakeReservoirOutflowLong']
         #
-        if not isinstance(initial_condition['waterBodyStorage'], types.NoneType):
+        # if not isinstance(initial_condition['waterBodyStorage'], types.NoneType): # types.NoneType not supported in Py3x
+        if initial_condition['waterBodyStorage'] is not "None":
             # read directly
             waterBodyStorage = initial_condition['waterBodyStorage']
         else:
@@ -424,7 +425,8 @@ class WaterBodies(object):
             avgChannelDischarge, length_of_time_step)
 
         # outflow in volume from water bodies with reservoir type (m3):
-        if isinstance(downstreamDemand, types.NoneType):
+        # if isinstance(downstreamDemand, types.NoneType):
+        if downstreamDemand is not None:
             downstreamDemand = pcr.scalar(0.0)
         reservoirOutflow = self.getReservoirOutflow(
             avgChannelDischarge, length_of_time_step, downstreamDemand)

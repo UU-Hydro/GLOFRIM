@@ -7,10 +7,10 @@ import logging
 import pcraster as pcr
 
 import pcrglobwb_bmi_v203.virtualOS as vos
-import pcrglobwb_bmi_v203.meteo
-import pcrglobwb_bmi_v203.landSurface
-import pcrglobwb_bmi_v203.groundwater
-import pcrglobwb_bmi_v203.routing
+import pcrglobwb_bmi_v203.meteo as meteo
+import pcrglobwb_bmi_v203.landSurface as landSurface
+import pcrglobwb_bmi_v203.groundwater as groundwater
+import pcrglobwb_bmi_v203.routing as routing
 
 
 logger = logging.getLogger(__name__)
