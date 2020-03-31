@@ -1,11 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import ConfigParser
+import configparser
 import optparse
 import os
 import sys
-import virtualOS as vos
+import pcrglobwb_bmi_v203.virtualOS as vos
 import time
 import datetime
 import logging

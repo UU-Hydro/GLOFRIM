@@ -13,7 +13,7 @@ import numpy as np
 # needed if we use PCRaster-4 (EHS, 7 May 2013)
 from pcraster import pcr2numpy, numpy2pcr
 import pcraster as pcr
-import virtualOS as vos
+import pcrglobwb_bmi_v203.virtualOS as vos
 
 
 class PCR2netCDF():

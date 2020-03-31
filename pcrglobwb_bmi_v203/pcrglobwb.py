@@ -6,11 +6,11 @@ import logging
 
 import pcraster as pcr
 
-import virtualOS as vos
-import meteo
-import landSurface
-import groundwater
-import routing
+import pcrglobwb_bmi_v203.virtualOS as vos
+import pcrglobwb_bmi_v203.meteo
+import pcrglobwb_bmi_v203.landSurface
+import pcrglobwb_bmi_v203.groundwater
+import pcrglobwb_bmi_v203.routing
 
 
 logger = logging.getLogger(__name__)

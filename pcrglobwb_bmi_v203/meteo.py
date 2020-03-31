@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import ETPFunctions as refPotET
-from ncConverter import *
-import virtualOS as vos
+import pcrglobwb_bmi_v203.ETPFunctions as refPotET
+from pcrglobwb_bmi_v203.ncConverter import *
+import pcrglobwb_bmi_v203.virtualOS as vos
 import os
 from pcraster.framework import *
 import pcraster as pcr

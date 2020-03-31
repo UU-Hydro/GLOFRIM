@@ -1,11 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import parameterSoilAndTopo as parSoilAndTopo
-import landCover as lc
-from ncConverter import *
+import pcrglobwb_bmi_v203.parameterSoilAndTopo as parSoilAndTopo
+import pcrglobwb_bmi_v203.landCover as lc
+from pcrglobwb_bmi_v203.ncConverter import *
 import pcraster as pcr
-import virtualOS as vos
+import pcrglobwb_bmi_v203.virtualOS as vos
 
 import logging
 logger = logging.getLogger(__name__)

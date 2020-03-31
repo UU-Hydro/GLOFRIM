@@ -6,8 +6,8 @@ Created on Jul 28, 2014.
 This "reporting.py" module is not the same as the one module initiated by Niels Drost.
 '''
 
-import variable_list as varDicts
-from ncConverter import *
+import pcrglobwb_bmi_v203.variable_list as varDicts
+from pcrglobwb_bmi_v203.ncConverter import *
 import pcraster as pcr
 import os
 

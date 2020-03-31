@@ -1,9 +1,9 @@
 #!/usr/bin/ python
 # -*- coding: utf-8 -*-
 
-import waterBodies
-from ncConverter import *
-import virtualOS as vos
+import pcrglobwb_bmi_v203.waterBodies
+from pcrglobwb_bmi_v203.ncConverter import *
+import pcrglobwb_bmi_v203.virtualOS as vos
 import os
 import types
 import math
