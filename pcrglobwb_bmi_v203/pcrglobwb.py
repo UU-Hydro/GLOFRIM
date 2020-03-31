@@ -88,8 +88,8 @@ class PCRGlobWB(object):
 
         landSurfaceState = state['landSurface']
 
-        for coverType, coverTypeState in landSurfaceState.iteritems():
-            for variable, map in coverTypeState.iteritems():
+        for coverType, coverTypeState in landSurfaceState.items():
+            for variable, map in coverTypeState.items():
                 vos.writePCRmapToDir(
                     map,
                     str(variable)+"_"+coverType+"_" +
@@ -97,7 +97,7 @@ class PCRGlobWB(object):
                     outputDirectory)
 
         groundWaterState = state['groundwater']
-        for variable, map in groundWaterState.iteritems():
+        for variable, map in groundWaterState.items():
             vos.writePCRmapToDir(
                 map,
                 str(variable)+"_" +
@@ -105,7 +105,7 @@ class PCRGlobWB(object):
                 outputDirectory)
 
         routingState = state['routing']
-        for variable, map in routingState.iteritems():
+        for variable, map in routingState.items():
             vos.writePCRmapToDir(
                 map,
                 str(variable)+"_" +
