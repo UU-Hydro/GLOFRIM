@@ -70,9 +70,21 @@ To make use of the BMI functions in PCR-GLOBWB, a typical workflow would look li
     # overwrite values of a model variable
     model_pcr.set_var('discharge', Q)
 
-.. warning::
+Exposed variables
+------------------
 
-    Not all PCR-GLOBWB variables are exposed and can be retrieved/overwritten with BMI functions. Depending on modelling requirements, exposing additional variables may be needed.
+Note: Not all PCR-GLOBWB variables are exposed and can be retrieved/overwritten with BMI functions. 
+Depending on modelling requirements, exposing additional variables may be needed.
+
+Currently exposed variables are:
+
+- discharge
+- landSurfaceRunoff
+- topWaterLayer
+- channelStorage
+- waterBodyStorage
+- cellArea
+- lddMap
 
 Contributing
 -------------
