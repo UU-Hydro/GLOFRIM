@@ -35,7 +35,8 @@ or
 
     python path/to/PCR_BMI/setup.py develop
 
-It is furthermore important to know that the DynRout extension, which is used in some of the test cases of GLOFRIM with PCR-GLOBWB, is not part of the code stored in this repository. If you want to receive the code of DynRout (which does not have a BMI, unfortunately), please contact the developers.
+It is furthermore important to know that the DynRout extension, which is used in some of the test cases of GLOFRIM with PCR-GLOBWB, is not part of the code stored in this repository. 
+If you want to receive the code of DynRout (which does not have a BMI, unfortunately), please contact the developers.
 
 Usage
 ------
@@ -73,6 +74,9 @@ To make use of the BMI functions in PCR-GLOBWB, a typical workflow would look li
 
     Not all PCR-GLOBWB variables are exposed and can be retrieved/overwritten with BMI functions. Depending on modelling requirements, exposing additional variables may be needed.
 
+.. warning:: Not all PCR-GLOBWB variables are exposed and can be retrieved/overwritten with BMI functions. Depending on modelling requirements, exposing additional variables may be needed.
+
+
 
 Contributing
 -------------
@@ -84,17 +88,17 @@ Contact
 
 Jannis Hoch PhD
 
-j.m.hoch@uu.nl
+email: j.m.hoch@uu.nl
 
 References
 -----------
 
-.. [#1]: Hoch et al., 2017, https://doi.org/10.5194/gmd-10-3913-2017
+    .. [#1]: Hoch et al., 2017, https://doi.org/10.5194/gmd-10-3913-2017
 
-.. [#2]: Hoch et al., 2019, https://doi.org/10.5194/nhess-19-1723-2019 
+    .. [#2]: Hoch et al., 2019, https://doi.org/10.5194/nhess-19-1723-2019 
 
-.. [#3]: GLOFRIM documentation, https://glofrim.readthedocs.io/
+    .. [#3]: GLOFRIM documentation, https://glofrim.readthedocs.io/
 
-.. [#4]: Zenodo repository, https://doi.org/10.5281/zenodo.1472346
+    .. [#4]: Zenodo repository, https://doi.org/10.5281/zenodo.1472346
 
 
