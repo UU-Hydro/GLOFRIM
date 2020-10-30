@@ -2,7 +2,7 @@ PCR-GLOBWB with BMI
 ====================
 
 This repository contains code of the global hydrologic model PCR-GLOBWB extended with Basic Model Interface (BMI) functionality, hereafter named PCR-BMI.
-The code is developed and applied with GLOFRIM, a globally applicable computational framework for integrated hydrological–hydrodynamic modelling HOCH2017_ HOCH2019_ GLOFRIMdoc_.
+The code is developed and applied with GLOFRIM, a globally applicable computational framework for integrated hydrological–hydrodynamic modelling (https://glofrim.readthedocs.io/).
 
 The default PCR-GLOBWB model *without* BMI functionality can be found here as Zenodo release (https://doi.org/10.5281/zenodo.595656).
 
@@ -43,7 +43,7 @@ Usage
 
 If you want to use the code, you are free to download, apply, and share it within the GNU GPL 3.0 license.
 
-In case of application of this code or parts of it in any reports, please refer to the articles mention HOCH2017_ and HOCH2019_ as well as the Zenodo-release (version and DOI) used ZENODO_.
+In case of application of this code or parts of it in any reports, please refer to the articles in the reference section as well as the Zenodo-release (version and DOI).
 
 To make use of the BMI functions in PCR-GLOBWB, a typical workflow would look like this:
 
@@ -101,12 +101,9 @@ email: j.m.hoch@uu.nl
 References
 -----------
 
-.. _HOCH2017: Hoch et al., 2017, https://doi.org/10.5194/gmd-10-3913-2017
+- Hoch et al., 2017, https://doi.org/10.5194/gmd-10-3913-2017
 
-.. _HOCH2019: Hoch et al., 2019, https://doi.org/10.5194/nhess-19-1723-2019 
+- Hoch et al., 2019, https://doi.org/10.5194/nhess-19-1723-2019 
 
-.. _GLOFRIMdoc: GLOFRIM documentation, https://glofrim.readthedocs.io/
-
-.. _ZENODO: Zenodo repository, https://doi.org/10.5281/zenodo.1472346
 
 
