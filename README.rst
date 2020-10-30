@@ -2,7 +2,7 @@ PCR-GLOBWB with BMI
 ====================
 
 This repository contains code of the global hydrologic model PCR-GLOBWB extended with Basic Model Interface (BMI) functionality, hereafter named PCR-BMI.
-The code is developed and applied with GLOFRIM, a globally applicable computational framework for integrated hydrological–hydrodynamic modelling [#1]_ [#2]_ [#3]_.
+The code is developed and applied with GLOFRIM, a globally applicable computational framework for integrated hydrological–hydrodynamic modelling [HOCH2017]_ [HOCH2019]_ [GLOFRIMdoc]_.
 
 The default PCR-GLOBWB model *without* BMI functionality can be found here as Zenodo release (https://doi.org/10.5281/zenodo.595656).
 
@@ -43,7 +43,7 @@ Usage
 
 If you want to use the code, you are free to download, apply, and share it within the GNU GPL 3.0 license.
 
-In case of application of this code or parts of it in any reports, please refer to the articles mention [#1]_ and [#2]_ as well as the Zenodo-release (version and DOI) used [#4]_.
+In case of application of this code or parts of it in any reports, please refer to the articles mention [HOCH2017]_ and [HOCH2019]_ as well as the Zenodo-release (version and DOI) used [ZENODO]_.
 
 To make use of the BMI functions in PCR-GLOBWB, a typical workflow would look like this:
 
@@ -74,10 +74,6 @@ To make use of the BMI functions in PCR-GLOBWB, a typical workflow would look li
 
     Not all PCR-GLOBWB variables are exposed and can be retrieved/overwritten with BMI functions. Depending on modelling requirements, exposing additional variables may be needed.
 
-.. warning:: Not all PCR-GLOBWB variables are exposed and can be retrieved/overwritten with BMI functions. Depending on modelling requirements, exposing additional variables may be needed.
-
-
-
 Contributing
 -------------
 
@@ -93,12 +89,12 @@ email: j.m.hoch@uu.nl
 References
 -----------
 
-    .. [#1]: Hoch et al., 2017, https://doi.org/10.5194/gmd-10-3913-2017
+.. [HOCH2017]: Hoch et al., 2017, https://doi.org/10.5194/gmd-10-3913-2017
 
-    .. [#2]: Hoch et al., 2019, https://doi.org/10.5194/nhess-19-1723-2019 
+.. [HOCH2019]: Hoch et al., 2019, https://doi.org/10.5194/nhess-19-1723-2019 
 
-    .. [#3]: GLOFRIM documentation, https://glofrim.readthedocs.io/
+.. [GLOFRIMdoc]: GLOFRIM documentation, https://glofrim.readthedocs.io/
 
-    .. [#4]: Zenodo repository, https://doi.org/10.5281/zenodo.1472346
+.. [ZENODO]: Zenodo repository, https://doi.org/10.5281/zenodo.1472346
 
 
